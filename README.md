@@ -2,7 +2,6 @@
 
 > A complete implementation of the JPEG compression pipeline — encoding and decoding — built from scratch using NumPy and OpenCV.
 
-**Authors:** Dharmik Patel (24EC65R10) · Aryan Simul Udani (24EC65R28)
 
 ---
 
@@ -54,52 +53,7 @@ Original Image (RGB)
 Reconstructed Image
 ```
 
----
 
-## 📁 Project Structure
-
-```
-jpeg-compression/
-├── jpeg.ipynb              # Main Jupyter notebook (full pipeline)
-├── jpeg_compression.py     # Standalone Python script
-├── requirements.txt        # Python dependencies
-├── README.md
-├── docs/
-│   ├── JPEG_Compression_Report.docx    # Detailed technical report
-│   └── JPEG_Compression_Summary.pptx  # Presentation slides
-└── images/
-    └── cameraman.bmp       # Test image (place your .bmp files here)
-```
-
----
-
-## ⚙️ Installation
-
-**Requirements:** Python 3.8+
-
-```bash
-git clone https://github.com/your-username/jpeg-compression.git
-cd jpeg-compression
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Usage
-
-### Jupyter Notebook (Recommended)
-
-```bash
-jupyter notebook jpeg.ipynb
-```
-
-Run all cells in order — the notebook walks through each stage of the pipeline with printed intermediate outputs.
-
-### Python Script
-
-```bash
-python jpeg_compression.py
-```
 
 By default it loads `cameraman.bmp`. To use a different image, edit the `cv2.imread(...)` call at the bottom of the script.
 
